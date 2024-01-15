@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Roboto, sans serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    padding-right: 120px;
+}
+
+.header,
+ .first {
+   background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    padding-left: 120px;
+    align-items: center;
+    
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: Roboto, sans serif;
+    font-weight: bold;
+}
+
+.link, .header p {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter;
+    gap: 8px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 120px;
+}
+
+.title {
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first-left p {
+   color: #E5E7EB;
+   max-width: 400px;
+   flex-wrap: wrap;
+}
+
+img {
+    max-width: 350px;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 8px 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.second {
+    padding: 70px 100px;
+}
+
+.second-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.info img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 8px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+
+.third {
+    background-color: #E5E7EB;
+    padding: 40px 120px;
+   
+}
+
+.third p {
+    font-size: 23px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.third div {
+    display: flex;
+    justify-content:space-around;
+    font-weight: bolder;
+}
+
+.fourth {
+    padding: 60px 110px;
+}
+.call-action {
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third-title {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.notification {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.call-action button {
+    height: 50px;
+    width: 200px;
+    border:2px solid white;
+}
+
+.notification p {
+    color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 50px 80px;
+}
+
+.copyright {
+    font-family: Roboto, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
